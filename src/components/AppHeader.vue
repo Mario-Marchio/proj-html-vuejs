@@ -8,7 +8,7 @@
             </a>
             <ul class="nav ">
                 <li class="nav-item">
-                    <a class="nav-link  d-flex align-items-center pt-3 text-acqua" aria-current="page" href="#">Home</a>
+                    <a class=" nav-link d-flex align-items-center pt-3 text-acqua" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-white d-flex align-items-center pt-3" href="#">About</a>
@@ -34,7 +34,7 @@
                 </li>
             </ul>
         </div>
-        <div class="container-medium p-5">
+        <div class="container-medium p-5 text-white">
             <div class="fs-1 pb-4">Caraing <span class="text-acqua">For Life</span></div>
             <div class="pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, itaque fuga libero quae
                 sequi quam
@@ -48,7 +48,7 @@
     </header>
 </template>
 
-<style>
+<style lang="scss" scoped>
 header {
     background-image: url(../assets/img/header-image-homepage.jpg);
     background-size: cover;
@@ -57,24 +57,15 @@ header {
     height: 560px;
 }
 
-.rectangular-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #3bafbf;
-    color: #fff;
-    border: none;
-    border-radius: 0;
-}
 
-.text-acqua {
+.nav-item .text-acqua {
     color: #3bafbf;
 }
 
-.container-medium {
-    color: #fff;
-    margin: 0 auto;
-    width: 600px;
+.fs-1 .text-acqua {
+    color: #3bafbf;
 }
+
 
 button.change-color:hover {
     background-color: #327EC7;
