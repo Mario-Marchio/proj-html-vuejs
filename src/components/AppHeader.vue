@@ -34,6 +34,17 @@
                 </li>
             </ul>
         </div>
+        <div class="header-center p-5">
+            <div class="fs-1 pb-4">Caraing <span class="text-acqua">For Life</span></div>
+            <div class="pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, itaque fuga libero quae
+                sequi quam
+                minima officiis inventore nulla
+            </div>
+            <div class="nav-item ">
+                <a class="nav-link d-flex align-items-center  "><button class="change-color rectangular-button">Learn
+                        More</button></a>
+            </div>
+        </div>
     </header>
 </template>
 
@@ -57,5 +68,15 @@ header {
 
 .text-acqua {
     color: #3bafbf;
+}
+
+.header-center {
+    color: #fff;
+    margin: 0 auto;
+    width: 600px;
+}
+
+button.change-color:hover {
+    background-color: #327EC7;
 }
 </style>
