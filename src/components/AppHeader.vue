@@ -34,7 +34,7 @@
                 </li>
             </ul>
         </div>
-        <div class="header-center p-5">
+        <div class="container-medium p-5">
             <div class="fs-1 pb-4">Caraing <span class="text-acqua">For Life</span></div>
             <div class="pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, itaque fuga libero quae
                 sequi quam
@@ -54,7 +54,7 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 800px;
+    height: 560px;
 }
 
 .rectangular-button {
@@ -70,7 +70,7 @@ header {
     color: #3bafbf;
 }
 
-.header-center {
+.container-medium {
     color: #fff;
     margin: 0 auto;
     width: 600px;
