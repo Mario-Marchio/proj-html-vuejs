@@ -30,6 +30,12 @@
             <a><button class=" text-white button-border3">Learn More</button></a>
         </div>
     </div>
+    <div class="section-6">
+
+    </div>
+    <div class="section-7">
+
+    </div>
 </template>
 
 <style>
@@ -37,6 +43,23 @@
     height: 400px;
     display: flex;
 }
+
+.section-6 {
+    height: 800px;
+    background-image: url(../assets/img/make-an-appointment.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section-7 {
+    height: 300px;
+    background-image: url(../assets/img/rgb-gradient-bar-for-logo-carrasel.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 
 .bgc-l-blue {
     background-color: #3bafbf;
