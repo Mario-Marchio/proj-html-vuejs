@@ -72,6 +72,67 @@
             <img src="../assets/img/client-logos-4-200x188.png" alt="logo4">
         </div>
     </div>
+    <div class="section-8">
+        <div class="footer-info">
+            <div class="ps-5 pt-4 pb-3"><img src="../assets/img/medical_logo_1x_dark.png" alt="medical logo"></div>
+            <div class="ps-5 pb-3 text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+                laudantium magni
+                consequuntur cum, veniam debitis veritatis maxime cumque vitae, magnam, dolorem vel odio.</div>
+            <div class="ms-5 mb-3 footer-greyline"></div>
+            <div class="ps-5 pb-3 ">LEARN MORE ABOUT US</div>
+            <div class="ps-5 py-3 d-flex ">
+                <i class="fa-brands fa-square-facebook fa-xl mx-1" style="color: #327ec7;"></i>
+                <i class="fa-brands fa-square-twitter fa-xl mx-1" style="color: #3896c2;"></i>
+                <i class="fa-brands fa-square-youtube fa-xl" style="color: #ff0000;"></i>
+                <i class="fa-brands fa-square-instagram fa-xl mx-1" style="color: #245ab7;"></i>
+            </div>
+        </div>
+        <div class="footer-info">
+            <div class="ps-5 py-4">CONTACT INFORMATION</div>
+            <div class="ps-5 pb-3">
+                <div class="footer-l-blueline"></div>
+            </div>
+            <div class="ps-5 py-2">
+                <i class="fa-solid fa-location-dot fa-xs me-2" style="color: #3bafbf;"></i><span>121 khing street, london
+                    united
+                    kingdom</span>
+            </div>
+            <div class="ps-5 py-2">
+                <i class="fa-solid fa-phone-flip fa-xs me-2" style="color: #3bafbf;"></i><span>1.800.458.556</span>
+            </div>
+
+        </div>
+        <div class="footer-info">
+            <div class="ps-5 py-4">MEDICAL DEPARTEMENTS</div>
+            <div class="ps-5 pb-3">
+                <div class="footer-l-blueline"></div>
+            </div>
+            <div class="ps-5 py-2">
+                <div class="d-flex py-2">
+                    <div class="circle">></div>
+                    <span class="ms-2">cardiology</span>
+                </div>
+                <div class="d-flex py-2">
+                    <div class="circle">></div>
+                    <span class="ms-2">pedriatics</span>
+                </div>
+                <div class="d-flex py-2">
+                    <div class="circle">></div>
+                    <span class="ms-2">diabetes care</span>
+                </div>
+                <div class="d-flex py-2">
+                    <div class="circle">></div>
+                    <span class="ms-2">pre-natel care</span>
+                </div>
+                <div class="d-flex py-2">
+                    <div class="circle">></div>
+                    <span class="ms-2">ultrasound echocardiogram</span>
+                </div>
+            </div>
+            <button class="ms-5 my-2 departement-button">VIEW OUR DEPARTEMENTS</button>
+        </div>
+
+    </div>
 </template>
 
 <style lang="scss" scoped>
@@ -162,5 +223,53 @@ textarea::placeholder {
     padding: 10px 0;
     background-color: #3bafbf;
     border: 1px solid transparent;
+}
+
+.section-8 {
+    height: 400px;
+    display: flex;
+}
+
+.footer-info {
+    flex-basis: calc(100%/3);
+}
+
+.footer-greyline {
+    background-color: #dddddd;
+    width: 92%;
+    height: 3px;
+}
+
+.footer-l-blueline {
+    background-color: #3bafbf;
+    height: 3px;
+    width: 40px;
+}
+
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #3bafbf;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.text {
+    color: #fff;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.departement-button {
+    width: 300px;
+    padding: 10px 0;
+    background-color: white;
+    border: 1px solid black;
+
 }
 </style>
