@@ -36,4 +36,12 @@ export default {
   border: none;
   border-radius: 0;
 }
+
+.grey-line {
+
+  background-color: #dddddd;
+  width: 200px;
+  height: 4px;
+  margin-left: 150px
+}
 </style>

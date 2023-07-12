@@ -31,21 +31,52 @@
         </div>
     </div>
     <div class="section-6">
-
+        <div class="container-small text-center text-white">
+            <div class="fs-3 mb-3 pt-5"> TOUR OUR FACILITIES</div>
+            <div class="grey-line"></div>
+            <div class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus cumque perferendis maiores
+                ducimus!
+                Officiis doloremque laudantium nemo autem sit facere, ea ex aut illo</div>
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control bg-transparent border-white text-white" placeholder="First name">
+                </div>
+                <div class="col">
+                    <input type="email" class="form-control bg-transparent border-white text-white" placeholder="email">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col py-4">
+                    <input type="phone" class="form-control bg-transparent border-white text-white"
+                        placeholder="phone number">
+                </div>
+                <div class="col py-4">
+                    <input type="date" class="form-control bg-transparent border-white text-white"
+                        placeholder="appontement date">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col py-4">
+                    <textarea type="text" class="form-control bg-transparent border-white text-white"
+                        placeholder="how can we help?"></textarea>
+                </div>
+            </div>
+            <button class="text-white appointment-button">MAKE AN APPOINTMENT</button>
+        </div>
     </div>
     <div class="section-7">
 
     </div>
 </template>
 
-<style>
+<style lang="scss" scoped>
 .section-5 {
     height: 400px;
     display: flex;
 }
 
 .section-6 {
-    height: 800px;
+    height: 600px;
     background-image: url(../assets/img/make-an-appointment.jpg);
     background-size: cover;
     background-position: center;
@@ -103,5 +134,26 @@
     padding: 10px 20px;
     background-color: #327ecf;
     border: 1px solid white;
+}
+
+textarea {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+input::placeholder {
+    color: white;
+}
+
+textarea::placeholder {
+    color: white;
+}
+
+.appointment-button {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #3bafbf;
+    border: 1px solid transparent;
 }
 </style>

@@ -181,13 +181,6 @@
     background-repeat: no-repeat;
 }
 
-.grey-line {
-
-    background-color: #dddddd;
-    width: 200px;
-    height: 4px;
-    margin-left: 150px
-}
 
 .h-60 {
     height: 60px;
