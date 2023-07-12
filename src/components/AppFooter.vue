@@ -133,6 +133,14 @@
         </div>
 
     </div>
+    <div class="section-9">
+        <div class="copyright-section">
+            <div class="ms-5 mt-2 copyright-size">copyright 2012-2020 | Avada Theme by ThemeFusion | All rights
+                reserved |
+                powered by wordpress
+            </div>
+        </div>
+    </div>
 </template>
 
 <style lang="scss" scoped>
@@ -159,6 +167,16 @@
     justify-content: space-around;
 }
 
+.section-8 {
+    height: 400px;
+    display: flex;
+}
+
+.section-9 {
+    height: 50px;
+    display: flex;
+    background-color: #dddddd;
+}
 
 .bgc-l-blue {
     background-color: #3bafbf;
@@ -225,10 +243,6 @@ textarea::placeholder {
     border: 1px solid transparent;
 }
 
-.section-8 {
-    height: 400px;
-    display: flex;
-}
 
 .footer-info {
     flex-basis: calc(100%/3);
@@ -271,5 +285,13 @@ textarea::placeholder {
     background-color: white;
     border: 1px solid black;
 
+}
+
+.copyright-section {
+    justify-content: space-between;
+}
+
+.copyright-size {
+    font-size: 10px;
 }
 </style>
