@@ -65,7 +65,12 @@
         </div>
     </div>
     <div class="section-7">
-
+        <div class="container-medium text-center">
+            <img src="../assets/img/client-logos-1-200x188.png" alt="logo1">
+            <img src="../assets/img/client-logos-2-200x188.png" alt="logo2">
+            <img src="../assets/img/client-logos-3-200x188.png" alt="logo3">
+            <img src="../assets/img/client-logos-4-200x188.png" alt="logo4">
+        </div>
     </div>
 </template>
 
@@ -84,11 +89,13 @@
 }
 
 .section-7 {
-    height: 300px;
+    height: 200px;
     background-image: url(../assets/img/rgb-gradient-bar-for-logo-carrasel.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
 }
 
 
