@@ -89,7 +89,62 @@
                     </p>
                 </div>
             </div>
-
+        </div>
+    </div>
+    <div class="section-3">
+        <div class="container-small text-center">
+            <img class="pt-5 pb-3" src="../assets/img/icon-6.png" alt="doctor face">
+            <div class="fs-3 mb-3">OUR HEALT SERVICES</div>
+            <div class="grey-line"></div>
+            <div class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus cumque perferendis maiores
+                ducimus!
+                Officiis doloremque laudantium nemo autem sit facere, ea ex aut illo</div>
+        </div>
+        <div class="container-medium d-flex justify-content-around">
+            <div class="text-center ">
+                <img class="mb-4" src="../assets/img/icon-14.png" alt="Same Day Appointments">
+                <div class="change-color">REABILITATION CENTER</div>
+                <div class="pb-5">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga aperiam quia id animi
+                </div>
+            </div>
+            <div class="text-center ">
+                <img class="mb-4" src="../assets/img/icon-15.png" alt="Same Day Appointments">
+                <div class="change-color">DENTAL IMPLANTS</div>
+                <div class="pb-5">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga aperiam quia id animi
+                </div>
+            </div>
+            <div class="text-center ">
+                <img class="mb-4" src="../assets/img/icon-16.png" alt="Same Day Appointments">
+                <div class="change-color">MEDICINE RESEACH</div>
+                <div class="pb-5">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga aperiam quia id animi
+                </div>
+            </div>
+        </div>
+        <div class="container-medium d-flex justify-content-around">
+            <div class="text-center ">
+                <img class="mb-4" src="../assets/img/icon-11.png" alt="Same Day Appointments">
+                <div class="change-color">BLOD BANK</div>
+                <div class="pb-5">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga aperiam quia id animi
+                </div>
+            </div>
+            <div class="text-center ">
+                <img class="mb-4" src="../assets/img/icon-12.png" alt="Same Day Appointments">
+                <div class="change-color">PHARMACEUTICAL ADVICE</div>
+                <div class="pb-5">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga aperiam quia id animi
+                </div>
+            </div>
+            <div class="text-center ">
+                <img class="mb-4" src="../assets/img/icon-13.png" alt="Same Day Appointments">
+                <div class="change-color">MEDICAL COUNSELING</div>
+                <div class="pb-5">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga aperiam quia id animi
+                </div>
+            </div>
         </div>
     </div>
 </template>
@@ -100,7 +155,11 @@
 
 .section-2 {
     background-color: #e5e5e5;
-    height: 1400px;
+    height: 950px;
+}
+
+.section-3 {
+    height: 850px;
 }
 
 .grey-line {
