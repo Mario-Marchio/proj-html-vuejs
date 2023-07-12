@@ -147,6 +147,17 @@
             </div>
         </div>
     </div>
+    <div class="section-4">
+        <div class="container-small text-center text-white">
+            <img class="pt-5 pb-3" src="../assets/img/icon-7.png" alt="eye">
+            <div class="fs-3 mb-3"> TOUR OUR FACILITIES</div>
+            <div class="grey-line"></div>
+            <div class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus cumque perferendis maiores
+                ducimus!
+                Officiis doloremque laudantium nemo autem sit facere, ea ex aut illo</div>
+            <img class="h-60" src="../assets/img/play-icon.png" alt="play">
+        </div>
+    </div>
 </template>
 <style lang="scss" scoped>
 .change-color:hover {
@@ -162,11 +173,23 @@
     height: 850px;
 }
 
+.section-4 {
+    height: 500px;
+    background-image: url(../assets/img/paralax-bg-tour-facilities.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .grey-line {
 
     background-color: #dddddd;
     width: 200px;
     height: 4px;
     margin-left: 150px
+}
+
+.h-60 {
+    height: 60px;
 }
 </style>
