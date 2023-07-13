@@ -37,7 +37,16 @@ export default {
   border-radius: 0;
 }
 
-.grey-line {
+.grey-line1 {
+
+  background-color: #dddddd;
+  width: 200px;
+  height: 4px;
+  margin-left: 220px;
+  margin-top: 5px;
+}
+
+.grey-line2 {
 
   background-color: #dddddd;
   width: 200px;

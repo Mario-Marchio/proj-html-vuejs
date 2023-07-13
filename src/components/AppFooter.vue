@@ -5,7 +5,7 @@
         <div class="container-small text-center text-white bgc-l-blue footer-header">
             <div class="fs-3 mb-3">Emergency care</div>
             <img class="img-wave" src="../assets/img/wave-divider.png" alt="wave">
-            <div class="grey-line"></div>
+            <div class="grey-line1"></div>
             <div class="m-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus cumque perferendis
                 maiores
             </div>
@@ -14,7 +14,7 @@
         <div class="container-small text-center text-white bgc-l-blue2 footer-header">
             <div class="fs-3 mb-3"> Expert diagnostics</div>
             <img class="img-wave" src="../assets/img/wave-divider.png" alt="wave">
-            <div class="grey-line"></div>
+            <div class="grey-line1"></div>
             <div class="m-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus cumque perferendis
                 maiores
             </div>
@@ -23,7 +23,7 @@
         <div class="container-small text-center text-white bgc-l-blue3 footer-header">
             <div class="fs-3 mb-3"> Superb rehabilitation</div>
             <img class="img-wave" src="../assets/img/wave-divider.png" alt="wave">
-            <div class="grey-line"></div>
+            <div class="grey-line1"></div>
             <div class="m-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus cumque perferendis
                 maiores
             </div>
@@ -33,7 +33,7 @@
     <div class="section-6">
         <div class="container-small text-center text-white">
             <div class="fs-3 mb-3 pt-5"> TOUR OUR FACILITIES</div>
-            <div class="grey-line"></div>
+            <div class="grey-line2"></div>
             <div class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus cumque perferendis maiores
                 ducimus!
                 Officiis doloremque laudantium nemo autem sit facere, ea ex aut illo</div>
