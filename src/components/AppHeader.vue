@@ -29,7 +29,8 @@
                     <a class="nav-link text-white d-flex align-items-center pt-3 ">Articles</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link text-white d-flex align-items-center  "><button class="rectangular-button">Make
+                    <a class="nav-link text-white d-flex align-items-center  "><button
+                            class="rectangular-button linear-gradient">Make
                             appointment</button></a>
                 </li>
             </ul>
@@ -41,7 +42,8 @@
                 minima officiis inventore nulla
             </div>
             <div class="nav-item ">
-                <a class="nav-link d-flex align-items-center  "><button class="change-color rectangular-button">Learn
+                <a class="nav-link d-flex align-items-center  "><button
+                        class="change-color rectangular-button linear-gradient">Learn
                         More</button></a>
             </div>
         </div>
@@ -69,5 +71,10 @@ header {
 
 button.change-color:hover {
     background-color: #327EC7;
+}
+
+.linear-gradient:hover {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(59, 70, 191, 1) 33%, rgba(51, 108, 199, 1) 66%, rgba(0, 176, 255, 1) 100%);
 }
 </style>
